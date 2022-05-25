@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link tipografia-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Square+Peg&display=swap"
+        rel="stylesheet">
+
+    <!--link bt-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- link css -->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title> Willian | Tienda de ropa deportiva </title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/c.png" alt="logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="opciones">
+                <li><a href="pages/productos.html">Productos</a></li>
+                <li><a href="pages/nosotros.html">Nosotros</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a class="boton" href="pages/micuenta.html"><button>Mi cuenta</button></a>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h1>
+                <strong>"WILLIAN"</strong> es la pagina de ropa deportiva mas importante del pais.
+            </h1>
+        </div>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/botines-nike-phantom-vsn.jpg" class="d-block w-100" alt="Botines Nike"
+                        class="zoom-img">
+                    <div class="carousel-caption d-none d-md-block">
+                        <strong>Nike Mercurial Phantom</strong>
+                        <p class="btn-comprar">
+                            <button type="button" class="btn btn-light">COMPRAR AHORA</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Featured_caso_puma_.width-1200.jpg" class="d-block w-100" alt="Camiseta de River"
+                        class="zoom-img">
+                    <div class="carousel-caption d-none d-md-block">
+                        <strong>Equipacion de River Plate</strong>
+                        <p class="btn-comprar">
+                            <button type="button" class="btn btn-light">COMPRAR AHORA</button>
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Hannah_PR_Still_02.jpg" class="d-block w-100" alt="Zapatillas runner"
+                        class="zoom-img">
+                    <div class="carousel-caption d-none d-md-block">
+                        <strong>Puma Future Z</strong>
+                        <p class="btn-comprar">
+                            <button type="button" class="btn btn-light">COMPRAR AHORA</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="buscador">
+            <h2>
+                Busca entre todos nuestros productos
+            </h2>
+            <nav>
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+    <section id="productos">
+        <div class="productos-item">
+            <p>
+                <img src="img/cr7.jpg" alt="Camiseta Man Utd" class="img-section">
+            </p>
+            <p>
+                <strong>Camiseta oficial Manchester united</strong>
+            </p>
+            <p>
+                <strong> Precio $8.500</strong>
+                <a href="pages/productos.html">
+                    <button class="btn-item">COMPRAR AHORA</button>
+                </a>
+            </p>
+        </div>
+
+        <div class="productos-item">
+            <p>
+                <img src="img/pelota.jpg" alt="Pelota Al Rihla" class="img-section">
+            </p>
+            <p>
+                <strong>Pelota oficial Mundial de Qatar "Al Rihla"</strong>
+            </p>
+            <p>
+                <strong>Precio $10.500</strong>
+                <a href="pages/productos.html">
+                    <button class="btn-item">COMPRAR AHORA</button>
+                </a>
+            </p>
+        </div>
+        <div class="productos-item">
+            <p>
+                <img src="img/nemezis.jpg" alt="Adidas Nemezis" class="img-section">
+            </p>
+            <p>
+                <strong>Botin Adidas Nemezis</strong>
+            </p>
+            <p>
+                <strong>Precio $15.000</strong>
+                <a href="pages/productos.html">
+                    <button class="btn-item">COMPRAR AHORA</button>
+                </a>
+            </p>
+        </div>
+
+        <div class="productos-item">
+            <p>
+                <img src="img/messi.jpg" alt="Camiseta Argentina" class="img-section">
+            </p>
+            <p>
+                <strong>Camiseta oficial Seleccion Argentina</strong>
+            </p>
+            <p>
+                <strong>Precio $9.500</strong>
+                <a href="pages/productos.html">
+                    <button class="btn-item">COMPRAR AHORA</button>
+                </a>
+            </p>
+        </div>
+
+        <div class="productos-item">
+            <p>
+                <img src="img/bokita.jpg" alt="Camiseta de Boca" class="img-section">
+            </p>
+            <p>
+                <strong>Camiseta oficial de Boca Juniors</strong>
+            </p>
+            <p>
+                <strong>Precio $8.500</strong>
+                <a href="pages/productos.html">
+                    <button class="btn-item">COMPRAR AHORA</button>
+                </a>
+            </p>
+        </div>
+
+        <div class="productos-item">
+            <p>
+                <img src="img/tiempo.jpg" alt="Botines Tiempo" class="img-section">
+            </p>
+            <p>
+                <strong>Botin Nike Tiempo</strong>
+            </p>
+            <p>
+                <strong>Precio $17.200</strong>
+                <button class="btn-item">COMPRAR AHORA</button>
+            </p>
+            </p>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <img src="img/LinkedIn-Symbole.png" alt="Linkedin" class="img-footer">
+            <img src="img/WhatsApp.svg.webp" alt="WhatsApp" class="img-footer">
+            <img src="img/instagram.png" alt="instagram" class="img-footer">
+        </div>
+
+        <div class="pie">
+            <h3>Todos los derechos reservados</h3>
+            <h4>Pagina hecha por Bautista Nougues</h4>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
