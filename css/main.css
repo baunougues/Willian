@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,12 +6,13 @@
     font-size: 20px;
 }
 
-body{
+body {
     background-color: #F1EEE9;
 }
+
 /* Estilos del Header */
 
-.header{
+.header {
     background-color: #15133C;
     display: flex;
     justify-content: flex-end;
@@ -21,41 +22,41 @@ body{
     border-bottom: solid #EC994B;
 }
 
-.header .logo{
+.header .logo {
     cursor: pointer;
     margin-right: auto;
 }
 
-.header .logo img{
-    height: 99px;
+.header .logo img {
+    height: 90px;
     width: auto;
     transition: all 0.3s;
 }
 
-.header .opciones{
+.header .opciones {
     list-style: none;
 }
 
-.header .opciones li{
+.header .opciones li {
     display: inline-block;
     padding: 0 20px;
 }
 
-.header .opciones li:hover{
+.header .opciones li:hover {
     transform: scale(1.1);
 }
 
-.header .opciones a{
+.header .opciones a {
     font-size: 700;
     color: #eceff1;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
-.header .opciones li a:hover{
+.header .opciones li a:hover {
     color: #EC994B;
 }
 
-.header .boton button{
+.header .boton button {
     margin-left: 20px;
     font-weight: 700;
     color: #1b3039;
@@ -68,13 +69,13 @@ body{
     margin-bottom: 20px;
 }
 
-.header .boton button:hover{
+.header .boton button:hover {
     background-color: #e2f1f8;
     color: #EC994B;
     transform: scale(1.1);
 }
 
-.imagen-cuenta{
+.imagen-none {
     display: none;
 }
 
@@ -83,42 +84,46 @@ body{
 
 /*carousel*/
 
-.carousel{
+.carousel {
     padding: 20px;
 }
-.carousel-item.active > img{
+
+.carousel-item.active>img {
     animation: carousel-zoom 20000ms infinite;
 }
 
-@keyframes carousel-zoom{
-    0%{
+@keyframes carousel-zoom {
+    0% {
         transform: scale(1);
     }
-    50%{
+
+    50% {
         transform: scale(1.1);
     }
-    100%{
+
+    100% {
         transform: scale(1);
     }
 
 }
+
 /*fin carousel*/
 
-h1{
+h1 {
     text-align: center;
     font-size: 23px;
     margin: 25px;
 }
 
-#productos{
+#productos {
     display: grid;
-    grid-template-areas:"buscador buscador"
-                        "cr7 pelota"
-                        "nemezis messi"
-                        "tiempo boca";
-}  
+    grid-template-areas: "buscador buscador"
+        "cr7 pelota"
+        "nemezis messi"
+        "tiempo boca";
+}
 
-.buscador{
+.buscador {
     grid-area: buscador;
     text-align: center;
     padding: 20px;
@@ -126,45 +131,45 @@ h1{
 }
 
 
-h2{
+h2 {
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #15133C;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.h2-dos{
+.h2-dos {
     font-size: 25px;
     color: #15133C;
     text-align: center;
     margin-top: 20px;
 }
 
-#productos{
+#productos {
     grid-area: cr7;
 }
 
-#productos{
+#productos {
     grid-area: pelota;
 }
 
-#productos{
+#productos {
     grid-area: nemezis;
 }
 
-#productos{
+#productos {
     grid-area: messi;
 }
 
-#productos{
+#productos {
     grid-area: tiempo;
 }
 
-#productos{
+#productos {
     grid-area: boca;
 }
 
-.img-section{
+.img-section {
     width: 95%;
     border: groove #15133C;
     border-radius: 6px;
@@ -174,36 +179,36 @@ h2{
     cursor: default;
 }
 
-.img-section:hover{
+.img-section:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-1%);
 }
 
-#productos{
+#productos {
     padding: 30px;
 }
 
-#productos > p{
+#productos>p {
     text-decoration: none;
     color: black;
-    text-align: left; 
+    text-align: left;
 }
 
-.productos-item{
+.productos-item {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.productos-item > p{
-    align-self: flex-start; 
+.productos-item>p {
+    align-self: flex-start;
     text-decoration: none;
     color: black;
-    text-align: left;  
+    text-align: left;
 }
 
 
-.btn-item{
+.btn-item {
     margin-left: 20px;
     font-weight: 700;
     color: #e2f1f8;
@@ -217,13 +222,13 @@ h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.btn-item:hover{
+.btn-item:hover {
     background-color: #15133C;
     color: #EC994B;
     transform: scale(1.1);
 }
 
-.btn-comprar{
+.btn-comprar {
     font-weight: 700;
     color: #1b3039;
     padding: 9px 25px;
@@ -236,38 +241,38 @@ h2{
 }
 
 
-.btn-comprar:hover{
+.btn-comprar:hover {
     color: #EC994B;
     transform: scale(1.1);
 }
 
 /* Estilos del footer */
 
-.img-footer{
+.img-footer {
     height: 5vh;
     margin-top: 30px;
 }
 
-footer{
+footer {
     display: grid;
-    grid-template-areas:"logo logo contacto"
-                        "h3-uno h3-dos contacto"
-                        "redes redes contacto"
-                        "h4 h4 contacto";
+    grid-template-areas: "logo logo contacto"
+        "h3-uno h3-dos contacto"
+        "redes redes contacto"
+        "h4 h4 contacto";
     background-color: #15133C;
     padding: 50px;
     color: #F1EEE9;
     border-top: solid #EC994B;
 }
 
-.logo-ftr{
+.logo-ftr {
     grid-area: logo;
     height: 160px;
     text-align: center;
 }
 
 
-.footer-contact{
+.footer-contact {
     grid-area: contacto;
     margin-left: 20px;
     padding: 10px;
@@ -275,12 +280,12 @@ footer{
     color: #15133C;
 }
 
-.footer-contact p{
+.footer-contact p {
     font-size: 30px;
     text-decoration: underline;
 }
 
-.h3-uno{
+.h3-uno {
     grid-area: h3-uno;
     font-size: 90%;
     text-align: center;
@@ -291,7 +296,7 @@ footer{
     padding: 5px;
 }
 
-.h3-dos{
+.h3-dos {
     grid-area: h3-dos;
     font-size: 90%;
     text-align: center;
@@ -302,137 +307,210 @@ footer{
     padding: 5px;
 }
 
-.redes{
+.redes {
     grid-area: redes;
     text-align: center;
     margin-top: 20px;
 }
 
-.img-footer{
+.img-footer {
     height: 40px;
 }
 
-.img-footer:hover{
+.img-footer:hover {
     transform: scale(1.1);
 }
 
-h4{
+h4 {
     grid-area: h4;
     text-align: center;
     margin-top: 50px;
     font-size: 15px;
 }
 
-/* RESPONSIVE INDEX */
+/* RESPONSIVE INDEX MEDIA QUARES*/
+
+@media screen and (max-width: 1200px) {
+    #productos {
+        display: grid;
+        grid-template-areas: "buscador buscador"
+            "cr7 pelota"
+            "nemezis messi"
+            "tiempo boca"
+    }
+
+
+    h3 {
+        display: none;
+    }
+
+    footer {
+        display: grid;
+        grid-template-areas: "logo"
+            "contacto"
+            "redes"
+            "h4";
+    }
+
+    .footer-contact {
+        text-align: center;
+
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    #productos {
+        display: grid;
+        grid-template-areas: "buscador"
+            "cr7"
+            "pelota"
+            "nemezis"
+            "messi"
+            "tiempo"
+            "boca";
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .imagen-none {
+        display: block;
+        display: flex;
+    }
+
+    .imagen-none a img {
+        height: 5vh;
+    }
+
+    .imagen-none a img:hover {
+        transform: scale(1.1);
+    }
+
+
+    .header .opciones {
+        display: none;
+    }
+
+    .header .boton button {
+        display: none;
+    }
+}
+
 
 /* Estilos de PRODUCTOS */
 
-.h1-productos{
-    font-size: 150%;
+.h1-productos {
+    font-size: 120%;
     margin: 0;
-    padding: 330px;
+    padding: 350px;
     background-image: url(../img/meci22.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100%; 
+    height: 100%;
     color: white;
     text-align: end;
 }
 
-.h1-prod{
+.h1-prod {
     margin-bottom: 30px;
 }
 
-#productos-productos{
+#productos-productos {
     display: grid;
-    grid-template-areas:"arg arsenal atletico barca"
-                        "borussia city francia holanda"
-                        "inter liverpool lyon milan"
-                        "psg real river united" ;
-    margin-left: 70px;                    
+    grid-template-areas: "arg arsenal atletico barca"
+        "borussia city francia holanda"
+        "inter liverpool lyon milan"
+        "psg real river united";
+    margin-left: 70px;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: arg;
 }
 
 
-#productos-productos{
+#productos-productos {
     grid-area: arg;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: arsenal;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: atletico;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: barca;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: borussia;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: city;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: francia;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: holanda;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: inter;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: liverpool;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: lyon;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: milan;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: psg;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: real;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: river;
 }
 
-#productos-productos{
+#productos-productos {
     grid-area: united;
 }
 
-.img-productos{
+
+
+.img-productos {
     width: 70%;
     margin-top: 30px;
     border: groove;
 }
 
-.img-productos:hover{
+.img-productos:hover {
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
     transform: translateY(-1%);
 }
 
-.btn-item-producto{
+.btn-item-producto {
     margin-left: 10px;
     font-weight: 500;
     color: #e2f1f8;
@@ -447,11 +525,53 @@ h4{
     font-size: 15px;
 }
 
-.btn-item-producto:hover{
+.btn-item-producto:hover {
     background-color: #15133C;
     color: #EC994B;
     transform: scale(1.1);
 }
 
+/* RESPONSIVE PRODUCTOS MEDIA QUARES */
 
+@media screen and (max-width: 1200px) {
+    #productos-productos {
+        display: grid;
+        grid-template-areas: "arg arsenal atletico"
+            "barca borussia city"
+            "francia holanda inter"
+            "liverpool lyon milan"
+            "psg real river"
+            "united united united";
+    }
 
+    .h1-productos {
+        font-size: 80%;
+        padding: 190px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #productos-productos {
+        display: grid;
+        grid-template-areas: "arg arsenal"
+            "atletico barca"
+            "borussia city"
+            "francia holanda"
+            "inter liverpool"
+            "lyon milan"
+            "psg real"
+            "river united";
+    }
+
+    .h1-productos {
+        font-size: 80%;
+        padding: 150px;
+    }
+}
+
+    /* ESTILOS DE NOSOTROS */
+
+    .h1-nosotros {
+        text-align: center;
+        font-size: 250%;
+    }
