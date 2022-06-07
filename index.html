@@ -36,19 +36,19 @@
             <ul class="opciones">
                 <li><a href="pages/productos.html">Productos</a></li>
                 <li><a href="pages/nosotros.html">Nosotros</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
+                <li><a href="pages/ayuda.html">Ayuda</a></li>
             </ul>
         </nav>
         <div>
             <a class="boton" href="pages/micuenta.html"><button>Mi cuenta</button></a>
         </div>
+        <div class="imagen-cuenta">
+            <a href="pages/micuenta.html">
+                <img src="img/Untitled.png" alt="mi cuenta">
+            </a>
+        </div>
     </header>
     <main>
-        <div>
-            <h1>
-                <strong>"WILLIAN"</strong> es la pagina de ropa deportiva mas importante del pais.
-            </h1>
-        </div>
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -101,10 +101,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+        <h1>
+            <strong>"WILLIAN"</strong> es la pagina de ropa deportiva mas importante del pais.
+        </h1>
 
         <div class="buscador">
             <h2>
-                Busca entre todos nuestros productos
+                BUSCA ENTRE NUESTROS PRODUCTOS
             </h2>
             <nav>
                 <div class="container-fluid">
@@ -115,6 +118,9 @@
                 </div>
             </nav>
         </div>
+        <h2 class="h2-dos">
+            Novedades y ultimos lanzamientos!
+        </h2>
     </main>
 
     <section id="productos">
@@ -126,7 +132,7 @@
                 <strong>Camiseta oficial Manchester united</strong>
             </p>
             <p>
-                <strong> Precio $8.500</strong>
+                <strong>Precio $8.500</strong>
                 <a href="pages/productos.html">
                     <button class="btn-item">COMPRAR AHORA</button>
                 </a>
@@ -207,16 +213,68 @@
         </div>
     </section>
     <footer>
-        <div>
-            <img src="img/LinkedIn-Symbole.png" alt="Linkedin" class="img-footer">
-            <img src="img/WhatsApp.svg.webp" alt="WhatsApp" class="img-footer">
-            <img src="img/instagram.png" alt="instagram" class="img-footer">
+        <div class="logo-ftr">
+            <a href="index.html">
+                <img src="img/c.png" alt="logo" class="logo-ftr">
+            </a>
         </div>
-
-        <div class="pie">
-            <h3>Todos los derechos reservados</h3>
-            <h4>Pagina hecha por Bautista Nougues</h4>
+        <div class="redes">
+            <a href="https://www.linkedin.com/" target="_blank">
+                <img src="img/LinkedIn-Symbole.png" alt="Linkedin" class="img-footer">
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <img src="img/WhatsApp.svg.webp" alt="WhatsApp" class="img-footer">
+            </a>
+            <a href="https://www.instagram.com/baunouguess/" target="_blank">
+                <img src="img/instagram.png" alt="instagram" class="img-footer">
+            </a>
         </div>
+        <h3 class="h3-uno">
+            El deporte nos mantiene en forma. Te mantiene atento. Nos une. A través del deporte podemos cambiar vidas.
+            Ya sea a través de historias de atletas inspiradores. Animándote a ponerte en marcha. Ofreciéndote artículos
+            deportivos con las últimas tecnologías para mejorar tu rendimiento. Superá tu mejor marca personal. Willian
+            es el hogar del corredor del joven futbolista y del entusiasta del fitness. Del
+            aventurero que escapa de la ciudad los fines de semana. De la instructora de yoga que enseña nuevas
+            posturas. Las 3 Tiras se ven en el mundo de la música. En el escenario, en los festivales. Nuestra ropa
+            deportiva para mujer y para hombre te mantiene concentrado antes de que suene el silbato. Durante la
+            carrera. Y en la línea de meta. Apoyamos a los creadores. Estamos aquí para apoyar a los creadores. Sus
+            vidas. Y cambiar el mundo.
+        </h3>
+        <h3 class="h3-dos">
+            Willian diseña ropa deportiva para atletas de todo tipo. Creadores que disfrutan de cambiar las reglas del
+            juego. Desafiar las convenciones. Romper las normas y definir nuevas. Y volverlas a romper. Confeccionamos
+            la ropa que visten equipos y jugadores individuales en preparación para el partido. Para que no pierdan la
+            concentración. Diseñamos indumentaria deportiva para que llegues a la meta. Para que ganes el partido.
+            Nuestras tiendas deportivas ofrecen atuendos para mujeres, con tops deportivos y calzas diseñados con un
+            objetivo en mente. Para deportes de impacto bajo, medio o alto. Diseñamos, innovamos e iteramos. Ponemos a
+            prueba nuevas tecnologías. En el campo, en la cancha, en la pista, en la piscina. La ropa deportiva retro
+            inspira nuevos elementos esenciales de la ropa urbana.
+        </h3>
+        <div class="footer-contact">
+            <p>
+                Contacto
+            </p>
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div>
+                    <p>
+                        <label for="name">Nombre de usuario:</label>
+                    </p>
+                    <input id="name" class="input" name="name" type="text" size="30">
+                </div>
+                <div>
+                    <p>
+                        <label for="email">Correo electronico:</label>
+                    </p>
+                    <input id="email" class="input" name="email" type="text" size="30">
+                </div>
+                <div>
+                    <label for="message">Comentarios:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
+                </div>
+                <button class="btn-contact" type="button" class="btn btn-light">Enviar</button>
+            </form>
+        </div>
+        <h4>Copyright © WILLIAN</h4>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
