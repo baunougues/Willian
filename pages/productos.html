@@ -14,6 +14,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!-- link css -->
 
@@ -23,44 +24,53 @@
 
 <body>
 
-    <!--Menu-->
+    <!--Inicio del menu -->
 
-    <header class="header">
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../img/c.png" alt="logo">
-            </a>
-        </div>
-        <nav>
-            <ul class="opciones">
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="ayuda.html">Ayuda</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="../index.html">
+                    <span class="text-warning"><img src="../img/c.png" alt="" class="img-fluid" width="90px" height="90px"></span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- elementos del menu colapsable -->
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto "> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/ayuda.html">Ayuda</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contactanos</a>
+                        </li>
+
+                        <form class="d-flex">                        
+                            <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Mi
+                                cuenta</button>
+                    </form>
+                    </ul>
+
+                    <hr class="d-md-none text-white-50">
+
+                </div>
+
+            </div>
         </nav>
-        <div>
-            <a class="boton" href="micuenta.html"><button>Mi cuenta</button></a>
-        </div>
-
-        <!--Menu oculto mobile-->
-
-        <div class="imagen-none">
-            <a href="../pages/productos.html">
-                <img src="../img/productos.png" alt="productos">
-            </a>
-
-            <a href="../pages/nosotros.html">
-                <img src="../img/nosotros.png" alt="nosotros">
-            </a>
-
-            <a href="../pages/ayuda.html">
-                <img src="../img/ayuda.png" alt="ayuda">
-            </a>
-
-            <a href="../pages/micuenta.html">
-                <img src="../img/Untitled.png" alt="mi cuenta">
-            </a>
-        </div>
     </header>
     <main>
 
@@ -317,79 +327,58 @@
             </p>
         </div>
     </section>
-    <footer>
 
-        <!--footer-->
+    <!--footer-->
 
-        <div class="logo-ftr">
-            <a href="../index.html">
-                <img src="../img/c.png" alt="logo" class="logo-ftr">
-            </a>
-        </div>
-        <div class="redes">
-            <a href="https://www.linkedin.com/" target="_blank">
-                <img src="../img/LinkedIn-Symbole.png" alt="Linkedin" class="img-footer">
-            </a>
-            <a href="https://www.whatsapp.com/" target="_blank">
-                <img src="../img/WhatsApp.svg.webp" alt="WhatsApp" class="img-footer">
-            </a>
-            <a href="https://www.instagram.com/baunouguess/" target="_blank">
-                <img src="../img/instagram.png" alt="instagram" class="img-footer">
-            </a>
-        </div>
-        <h3 class="h3-uno">
-            El deporte nos mantiene en forma. Te mantiene atento. Nos une. A través del deporte podemos cambiar vidas.
-            Ya sea a través de historias de atletas inspiradores. Animándote a ponerte en marcha. Ofreciéndote artículos
-            deportivos con las últimas tecnologías para mejorar tu rendimiento. Superá tu mejor marca personal. Willian
-            es el hogar del corredor del joven futbolista y del entusiasta del fitness. Del
-            aventurero que escapa de la ciudad los fines de semana. De la instructora de yoga que enseña nuevas
-            posturas. Las 3 Tiras se ven en el mundo de la música. En el escenario, en los festivales. Nuestra ropa
-            deportiva para mujer y para hombre te mantiene concentrado antes de que suene el silbato. Durante la
-            carrera. Y en la línea de meta. Apoyamos a los creadores. Estamos aquí para apoyar a los creadores. Sus
-            vidas. Y cambiar el mundo.
-        </h3>
-        <h3 class="h3-dos">
-            Willian diseña ropa deportiva para atletas de todo tipo. Creadores que disfrutan de cambiar las reglas del
-            juego. Desafiar las convenciones. Romper las normas y definir nuevas. Y volverlas a romper. Confeccionamos
-            la ropa que visten equipos y jugadores individuales en preparación para el partido. Para que no pierdan la
-            concentración. Diseñamos indumentaria deportiva para que llegues a la meta. Para que ganes el partido.
-            Nuestras tiendas deportivas ofrecen atuendos para mujeres, con tops deportivos y calzas diseñados con un
-            objetivo en mente. Para deportes de impacto bajo, medio o alto. Diseñamos, innovamos e iteramos. Ponemos a
-            prueba nuevas tecnologías. En el campo, en la cancha, en la pista, en la piscina. La ropa deportiva retro
-            inspira nuevos elementos esenciales de la ropa urbana.
-        </h3>
-        <div class="footer-contact">
-            <p>
-                Contacto
-            </p>
-            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                <div>
-                    <p>
-                        <label for="name">Nombre:</label>
-                    </p>
-                    <input id="name" class="input" name="name" type="text" size="30">
+    <footer class="pie-pagina">
+
+        <div class="ftr">
+
+            <div class="box">
+                <figure>
+                    <a href="../index.html">
+                        <img src="../img/c.png" alt="Logo de Willian">
+                    </a>
+                </figure>
+            </div>
+
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>
+                    Somos mucho mas que una tienda de ropa deportiva
+                </p>
+                <p>
+                    Somos pasión, energia y felicidad asegurada para todos  
+                </p>
+            </div>
+
+            <div class="box">
+
+                <h2>SIGUENOS</h2>
+
+                <div class="red-social">
+
+                    <a href="facebook.com" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/baunouguess/" class="fa fa-instagram"></a>
+                    <a href="linkedin.com" class="fa fa-linkedin"></a>
+                    <a href="whatsapp.com" class="fa fa-whatsapp"></a>
+
                 </div>
-                <div>
-                    <p>
-                        <label for="email">Correo electronico:</label>
-                    </p>
-                    <input id="email" class="input" name="email" type="text" size="30">
-                </div>
-                <div>
-                    <label for="message">Comentarios:</label><br />
-                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea>
-                </div>
-                <button class="btn-contact" type="button" class="btn btn-light">Enviar</button>
-            </form>
+
+            </div>
+
         </div>
-        <h4>Copyright © WILLIAN</h4>
+        <div class="copy">
+            <small>&copy; 2022 <b>Willian</b> - Todos los Derechos Reservados.</small>
+        </div>
     </footer>
-    
+
     <!--Script de JS-->
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

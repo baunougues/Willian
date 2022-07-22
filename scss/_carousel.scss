@@ -1,0 +1,36 @@
+.carousel {
+    padding: 20px;
+}
+
+.carousel-item.active>img {
+    animation: carousel-zoom 20000ms infinite;
+}
+
+@keyframes carousel-zoom {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}    .btn-comprar {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+    .btn-comprar:hover {
+        transform: scale(1.1);
+    }

@@ -1,0 +1,38 @@
+#productos {
+    display: grid;
+    grid-template-areas: "buscador buscador"
+        "cr7 pelota"
+        "nemezis messi"
+        "tiempo boca";
+    padding: 30px;
+
+    #productos {
+        grid-area: cr7;
+    }
+
+    #productos {
+        grid-area: pelota;
+    }
+
+    #productos {
+        grid-area: nemezis;
+    }
+
+    #productos {
+        grid-area: messi;
+    }
+
+    #productos {
+        grid-area: tiempo;
+    }
+
+    #productos {
+        grid-area: boca;
+    }
+
+    .productos-item p {
+        color: black;
+        text-align: left;
+
+    }
+}
